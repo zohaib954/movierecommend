@@ -1,0 +1,14 @@
+.content{
+    display:flex;
+    justify-content: space-between;
+}
+
+.sidebar{
+    width:30%!important;
+    position: fixed;
+}
+.main{
+    width: 85%!important;
+    margin: 10px!important;
+     
+}

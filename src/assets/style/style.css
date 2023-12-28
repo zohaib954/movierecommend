@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+/* CSS */
+.button-50 {
+  appearance: button;
+   
+  background-image: none;
+   
+  border-radius: 4px;
+   
+  box-sizing: border-box;
+  
+  cursor: pointer;
+  display: inline-block;
+   
+   
+  overflow: visible;
+  
+  text-align: center;
+  text-transform: none;
+  touch-action: manipulation;
+  user-select: none;
+  -webkit-user-select: none;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+
+.button-50:focus {
+  text-decoration: none;
+}
+
+.button-50:hover {
+  text-decoration: none;
+  transform: translate(-2px, -2px);
+}
+
+.mybtn-active {
+    background-color: #fa1c8d!important;
+    color: white!important;
+}
+
+.button-50:not([disabled]):active {
+  box-shadow: #fff 2px 2px 0 0, #000 2px 2px 0 1px;
+  transform: translate(2px, 2px);
+}
+
+/* @media (min-width: 768px) {
+  .button-50 {
+    padding: 12px 50px;
+  }
+} */
+
+.sidebar{
+    width: 150px;
+    height: auto;
+    position: fixed;
+    margin-top: 10px;
+}
+
+
+.sidebar ul li{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.leftMenu:hover{
+    background-color: #fa1c8d!important;
+    cursor: pointer;
+}
+.sidebar ul li:active{
+    background-color: #fa1c8d;
+}
+
+.film-page{
+    padding-bottom: 20px;
+    margin-bottom:10px
+}
+.film-topbar{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+.film-grid{
+    margin-right: 10px;
+}
+.grid-card{
+    width : 100%;
+    border-radius: 5px;
+}
+.grid-card img{
+    width: 100%;
+    height: 180px;
+    border-radius: 5px;
+}
+.film-desc{
+    margin: 0;
+    padding: 10px;
+   
+    border-radius: 5px;
+}
+.film-title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+    
+}
+
+.list-card{
+    border-radius: 20px;
+}
+.list-card-div{
+    width: 100%;
+    padding: 15px;
+   display: flex;
+   justify-content: space-between;
+}
+.list-card-div img{
+    width: 15%;
+    height: 100px;
+    border-radius: 20px;
+}
+.filmlist-title{
+    display: flex;
+    justify-content: space-between;
+}
+
+.director{
+    display: flex;
+    justify-content: left;
+}
+.director-child{
+    margin: 20px;
+}
+.list-detail{
+    width: 80%;
+}
